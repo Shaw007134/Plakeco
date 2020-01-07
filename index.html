@@ -6,6 +6,7 @@
   <title>安徽泛湖生态技术有限公司</title>
   <link rel="stylesheet" href="../layui/css/layui.css">
   <link rel="stylesheet" href="../css/index.css">
+<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
 </head>
 <body>
   <!-- 顶部导航栏 -->
@@ -177,22 +178,255 @@
     </div>
   </div>
 
-  <div class="footer"></div>
-  
+  <div class="banner">
+    <div class="service-box">
+      <div class="layui-fluid">
+        <!-- <div id="day0"> 
+          <div class="layui-row layui-col-space1" id="time"> 
+           <div class="layui-col-sm2 layui-col-sm-offset1">
+            精细预报
+           </div> 
+           <div class="layui-col-sm1">
+            14:00
+           </div> 
+           <div class="layui-col-sm1">
+            17:00
+           </div> 
+           <div class="layui-col-sm1">
+            20:00
+           </div> 
+           <div class="layui-col-sm1">
+            23:00
+           </div> 
+           <div class="layui-col-sm1">
+            07日02:00
+           </div> 
+           <div class="layui-col-sm1">
+            05:00
+           </div> 
+           <div class="layui-col-sm1">
+            08:00
+           </div> 
+           <div class="layui-col-sm1">
+            11:00
+           </div> 
+          </div> 
+          <div class="layui-row layui-col-space1" id="temperature"> 
+            <div class="layui-col-sm2 layui-col-sm-offset1">
+             气温
+            </div> 
+            <div class="layui-col-sm1">
+             8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+             8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+              8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+              8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+              8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+              8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+              8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+              8.4℃
+            </div> 
+           </div> 
+           <div class="layui-row layui-col-space1" id="rainfall"> 
+            <div class="layui-col-sm2 layui-col-sm-offset1">
+             降水
+            </div> 
+            <div class="layui-col-sm1">
+             8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+             8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+              8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+              8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+              8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+              8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+              8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+              8.4℃
+            </div> 
+           </div> 
+           <div class="layui-row layui-col-space1" id="windspeed"> 
+            <div class="layui-col-sm2 layui-col-sm-offset1">
+             风速
+            </div> 
+            <div class="layui-col-sm1">
+             8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+             8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+              8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+              8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+              8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+              8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+              8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+              8.4℃
+            </div> 
+           </div> 
+           <div class="layui-row layui-col-space1" id="winddirection"> 
+            <div class="layui-col-sm2 layui-col-sm-offset1">
+             风向
+            </div> 
+            <div class="layui-col-sm1">
+             8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+             8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+              8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+              8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+              8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+              8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+              8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+              8.4℃
+            </div> 
+           </div> 
+           <div class="layui-row layui-col-space1" id="airpressure"> 
+            <div class="layui-col-sm2 layui-col-sm-offset1">
+             气压
+            </div> 
+            <div class="layui-col-sm1">
+             8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+             8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+              8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+              8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+              8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+              8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+              8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+              8.4℃
+            </div> 
+           </div> 
+           <div class="layui-row layui-col-space1" id="humidity"> 
+            <div class="layui-col-sm2 layui-col-sm-offset1">
+             相对湿度
+            </div> 
+            <div class="layui-col-sm1">
+             8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+             8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+              8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+              8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+              8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+              8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+              8.4℃
+            </div> 
+            <div class="layui-col-sm1">
+              8.4℃
+            </div> 
+           </div> 
+         </div> -->
+        <div class="layui-row">
+          <div class = "layui-col-xs12 layui-col-sm6 layui-col-md7" style="width: 70%;" id="container" ></div>
+         <div class = "layui-col-xs12 layui-col-sm6 layui-col-md7" style="width: 30%; height: 400px; border-radius: 2px;" id="dituContent"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <div class="layui-container">
+      <p class="footer-web">
+        <a href="javascript:;">关于我们</a>
+        <a href="javascript:;">加入我们</a>
+        <a href="javascript:;">联系我们</a>
+        <a href="javascript:;">技术支持</a>
+      </p>
+      <div class="layui-row footer-contact">
+        <div class="layui-col-sm2 layui-col-lg1"><img src="./img/wechat1.jpg"></div>
+        <div class="layui-col-sm10 layui-col-lg11">
+          <div class="layui-row">
+            <div class="layui-col-sm6 layui-col-md8 layui-col-lg9">
+              <p class="contact-top"><i class="layui-icon layui-icon-cellphone"></i>&nbsp;0551-8888888&nbsp;&nbsp;(9:00-18:00)</p>
+              <p class="contact-bottom"><i class="layui-icon layui-icon-home"></i>&nbsp;888888@126.com</span></p>
+            </div>
+            <div class="layui-col-sm6 layui-col-md4 layui-col-lg3">
+              <p class="contact-top"><span class="right"><a href="https://www.plakeco.com/" target="_blank">安徽泛湖生态科技股份有限公司</a> 版权所有</span></p>
+              <p class="contact-bottom"><span class="right">Copyright&nbsp;©&nbsp;2017&nbsp;&nbsp;皖ICP&nbsp;备17013992号</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../js/highcharts.js"></script>
+  <script src="../nmc/hcharts_config.js"></script>
+  <script src="../nmc/hcharts.js"></script>
   <script src="../layui/layui.js"></script>
-  <script>
-    layui.use(['carousel','element'], function(){
-      var carousel = layui.carousel;
-      //轮播实例
-      var element = layui.element;
-      carousel.render({
-        elem: '#banner',
-        width: '100%',
-        height: '649px',
-        arrow: 'always',
-      });
-    });
-  </script>
+  <script src="../js/index.js"></script>
+  <script src="../js/baidumap.js"></script>
 </body>
 </html>
       
