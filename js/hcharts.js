@@ -7,7 +7,7 @@ setInterval(getWeather, 30 * 60 * 1000);
 
 function getWeather() {
   var xhr = new XMLHttpRequest();
-  xhr.open('GET', "http://127.0.0.1:10002/realtime");
+  xhr.open('GET', "http://47.104.228.220:10002/realtime");
   xhr.onreadystatechange = function () {
     if (xhr.readyState === 4) {
       if (xhr.status === 200) {
