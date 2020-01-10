@@ -66,7 +66,7 @@
   display: block;
   width: 25px;
   height: 2px;
-  background: #2db5a3;
+  background: #56BCDC;
   margin-bottom: 6px;
   transition: 0.5s;
 }
@@ -78,6 +78,11 @@
 
 .lay-nav-coll-item {
   line-height: 40px !important;
+}
+
+.login {
+  font-size: 18px;
+  color: #56BCDC
 }
 
 .nav .nav-list button span.spa1 {
